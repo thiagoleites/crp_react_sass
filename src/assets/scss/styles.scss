@@ -1,0 +1,9 @@
+@use './variables' as *;
+@use 'base/reset';
+
+.container {
+  max-width: $layout;
+  width: 100%;
+  margin-inline: auto;
+}
+

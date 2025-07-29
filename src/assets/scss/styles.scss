@@ -1,9 +1,18 @@
-@use './variables' as *;
-@use 'base/reset';
+@import 'variables/colors';
+@import 'variables/fonts';
+@import 'variables/spacing';
+@import'variables/breakpoints';
 
-.container {
-  max-width: $layout;
-  width: 100%;
-  margin-inline: auto;
-}
+@import 'mixins/utilities';
 
+@import 'base/reset';
+@import 'base/globals';
+@import 'base/typography';
+
+@import 'layout/container';
+@import 'layout/grid';
+
+@import 'components/buttons';
+@import 'components/forms';
+
+@import 'utilities/helpers';

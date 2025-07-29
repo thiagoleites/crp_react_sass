@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%; // 1rem = 10px
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $light;
+  color: $dark;
+  font-family: $font-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}

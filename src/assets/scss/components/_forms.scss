@@ -7,7 +7,12 @@ textarea {
   border-radius: 0.5rem;
   font-size: 1.4rem;
   margin-bottom: 1rem;
+  outline: none;
   font-family: inherit;
+
+  &:hover {
+    border-color: #888;
+  }
 
   &:focus {
     border-color: $primary;
